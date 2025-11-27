@@ -2,11 +2,39 @@ body {
     background-color: #121212;
 }
 
-.main-text
+main
 {
     color: #b5b5b5;
     margin-right: 15vw;
     margin-left: 15vw;
+}
+
+nav
+{
+    background-color: #007acc;
+}
+
+nav > ul
+{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+nav > ul > li > a
+{
+    display: block;
+    padding: 20%, 20%;
+    text-decoration: none;
+
+}
+
+nav > ul > li > a:hover
+{
+    background-color: #111111;
 }
 
 .song-embed
