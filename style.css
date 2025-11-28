@@ -1,4 +1,5 @@
-body {
+body 
+{
     background-color: #121212;
 }
 
@@ -11,37 +12,42 @@ main
 
 nav
 {
-    background-color: #007acc;
+    background-color: #052442a2;
+    overflow: hidden;
+    height: 9vh;
+    align-content: center;
+    align-items: center;
 }
 
-nav > ul
-{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    vertical-align: middle;
-}
-
-nav > ul > li > a
+nav > a
 {
     display: block;
-    padding: 20%, 20%;
+    float: left;
+    text-align: center;
+    padding: 3vh 6vw;
     text-decoration: none;
-
+    font-size: 18px;
+    color: #b5b5b5;
 }
 
-nav > ul > li > a:hover
+nav > a:hover
 {
     background-color: #111111;
 }
+
+nav > a.active
+{
+    background-color: #b7c6ca;
+    color: #111111;
+}
+
 
 .song-embed
 {
     width:70%;
     height: 25vw;
     margin: auto;
+    margin-top: 5vh;
     display: block;
 }
 
